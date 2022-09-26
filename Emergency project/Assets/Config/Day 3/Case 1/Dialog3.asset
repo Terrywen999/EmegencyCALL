@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a98f8515ec1f446bb22fbfd94c8331, type: 3}
+  m_Name: Dialog3
+  m_EditorClassIdentifier: 
+  dialogEntries:
+  - text: <link=name><color=white>My name is Jimmy</color></link>, and<link = name><color
+      = white> I'm at the Smith factory in Downtown.</color></link>
+  dialogOptions:
+  - responseType: 1
+    config: {fileID: 11400000, guid: 11216783b7314bf4b949b1f9d073b4df, type: 2}
+    text: Yes sir, I need your address and your name

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b04f130fbd4c242be92ed82746f51e, type: 3}
+  m_Name: MedicalBook
+  m_EditorClassIdentifier: 
+  bookName: MedicalBook
+  entries:
+  - type: 5
+    content: 
+  - type: 6
+    content: 
+  - type: 7
+    content: 
+  - type: 8
+    content: 
+  - type: 9
+    content: 
+  - type: 10
+    content: 

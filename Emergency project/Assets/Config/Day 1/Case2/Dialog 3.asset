@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a98f8515ec1f446bb22fbfd94c8331, type: 3}
+  m_Name: Dialog 3
+  m_EditorClassIdentifier: 
+  dialogEntries:
+  - text: 'My name is <link=name><color=white>Kaly</color></link>, my child is Tom,
+      and I am here in<link=address><color=white> the park next to Sirra</color></link>.
+
+'
+  dialogOptions:
+  - responseType: 1
+    config: {fileID: 11400000}
+    text: Yes, ma'am, please tell me your name and where you are now so I can have
+      someone come over to help you now

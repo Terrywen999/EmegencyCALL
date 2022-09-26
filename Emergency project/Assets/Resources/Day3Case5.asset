@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aa75d6e19f305041a019c3694190018, type: 3}
+  m_Name: Day3Case5
+  m_EditorClassIdentifier: 
+  callerName:
+  - Anita
+  knowCallerName: -1
+  address:
+  - '300 NS 7th Ave '
+  knowAddress: -1
+  info:
+  - 'her husband trying to kill her '
+  knowInfo: -1
+  time: 90
+  startDialog: {fileID: 11400000, guid: f86e557aab2f8064cb3c3a06cb35b5f5, type: 2}
+  wrongResponse: ".\u3002\u3002\u3002\u3002"
+  carPositions:
+  - {x: 1042.353, y: -499.5894}
+  - {x: 1060.451, y: -432.3308}
+  - {x: 962.4703, y: -400.2164}
+  - {x: 891.9797, y: -398.7634}
+  - {x: 887.6779, y: -364.4916}
+  - {x: 657.665, y: -368.7462}
+  - {x: 436.9631, y: -368.7545}
+  police: 1
+  ambulance: 1
+  fire: 0
+  fake: 0
+  wrongNameTime: 10
+  wrongInfoTime: 10
+  wrongAddressTime: 10
+  wrongTrafficTime: 15
+  image: {fileID: 0}
+  score: 100

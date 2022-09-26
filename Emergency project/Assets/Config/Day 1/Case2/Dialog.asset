@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a98f8515ec1f446bb22fbfd94c8331, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  dialogEntries:
+  - text: I I I, #......&@#......@, I don't know what I should do, can I trust you
+      guys
+  dialogOptions:
+  - responseType: 0
+    config: {fileID: 11400000, guid: 91248dd0a9b794c4495eb55d7b53033d, type: 2}
+    text: This is the help center, this is Terry, how can I help you

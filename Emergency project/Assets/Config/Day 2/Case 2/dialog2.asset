@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a98f8515ec1f446bb22fbfd94c8331, type: 3}
+  m_Name: dialog2
+  m_EditorClassIdentifier: 
+  dialogEntries:
+  - text: I... I don't know what to do. I don't know what to do, I just want to organize
+      him, but he's not moving now, I'm not trying to kill him, what should I do.
+  dialogOptions:
+  - responseType: 3
+    config: {fileID: 11400000, guid: bfc5e72d87805a84aa057c25834166d0, type: 2}
+    text: Please calm down lady, it may not be your fault, I will immediately send
+      the police to the scene, okay?

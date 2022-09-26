@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aa75d6e19f305041a019c3694190018, type: 3}
+  m_Name: Day2Case6
+  m_EditorClassIdentifier: 
+  callerName:
+  - David
+  knowCallerName: -1
+  address:
+  - this side of the Empire State Building
+  knowAddress: -1
+  info:
+  - Fire
+  knowInfo: -1
+  time: 90
+  startDialog: {fileID: 11400000, guid: ad8b901047a90cd4da11a26a262dba9f, type: 2}
+  wrongResponse: 'I dont understand that '
+  carPositions:
+  - {x: 262.3406, y: -131.9465}
+  - {x: 528.421, y: -128.2552}
+  - {x: 619.041, y: -128.1418}
+  - {x: 619.8578, y: -70.68948}
+  - {x: 704.4879, y: -70.86151}
+  - {x: 705.2372, y: 39.38471}
+  - {x: 777.1798, y: 40.51517}
+  police: 1
+  ambulance: 1
+  fire: 1
+  fake: 0
+  wrongNameTime: 10
+  wrongInfoTime: 10
+  wrongAddressTime: 10
+  wrongTrafficTime: 15
+  image: {fileID: 0}
+  score: 100

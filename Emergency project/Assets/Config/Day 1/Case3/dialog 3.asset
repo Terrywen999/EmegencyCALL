@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a98f8515ec1f446bb22fbfd94c8331, type: 3}
+  m_Name: dialog 3
+  m_EditorClassIdentifier: 
+  dialogEntries:
+  - text: My name is <link=name><color=white>Lauren</color></link>, <link=address><color=white>my
+      husband and I are in the parking lot of the Safeway in Downtown</color></link>,
+      you guys come on, he's, he's bleeding a lot!
+  dialogOptions:
+  - responseType: 1
+    config: {fileID: 11400000, guid: 69dbeb689e4c3ae41b26f033a41efee4, type: 2}
+    text: Ma'am, you'll be fine, I'm sending someone over to help you now, but I
+      need some information from you, an address and your name.

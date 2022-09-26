@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aa75d6e19f305041a019c3694190018, type: 3}
+  m_Name: Day3Case1
+  m_EditorClassIdentifier: 
+  callerName:
+  - Jimmy
+  knowCallerName: -1
+  address:
+  - Smith factory in Downtown
+  knowAddress: -1
+  info:
+  - Head jamming
+  knowInfo: -1
+  time: 90
+  startDialog: {fileID: 11400000, guid: d67a167d094ac2b4c9b7a77fb684537f, type: 2}
+  wrongResponse: ".\u3002\u3002\u3002\u3002"
+  carPositions:
+  - {x: 912.0948, y: 120.2836}
+  - {x: 1034.044, y: 121.6502}
+  - {x: 1043.299, y: 12.5027}
+  - {x: 1113.857, y: 11.83738}
+  - {x: 1059.005, y: -142.9273}
+  - {x: 967.9286, y: -114.0457}
+  - {x: 942.2337, y: -200.0915}
+  police: 0
+  ambulance: 1
+  fire: 0
+  fake: 0
+  wrongNameTime: 10
+  wrongInfoTime: 10
+  wrongAddressTime: 10
+  wrongTrafficTime: 15
+  image: {fileID: 0}
+  score: 100

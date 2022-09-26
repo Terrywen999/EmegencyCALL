@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aa75d6e19f305041a019c3694190018, type: 3}
+  m_Name: Day3Case2
+  m_EditorClassIdentifier: 
+  callerName: []
+  knowCallerName: -1
+  address: []
+  knowAddress: -1
+  info: []
+  knowInfo: -1
+  time: 0
+  startDialog: {fileID: 11400000, guid: 78127e324e80c214d8178aafb3f87b8c, type: 2}
+  wrongResponse: 
+  carPositions: []
+  police: 0
+  ambulance: 0
+  fire: 0
+  fake: 1
+  wrongNameTime: 10
+  wrongInfoTime: 10
+  wrongAddressTime: 10
+  wrongTrafficTime: 15
+  image: {fileID: 0}
+  score: 100

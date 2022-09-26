@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aa75d6e19f305041a019c3694190018, type: 3}
+  m_Name: Day3Case6
+  m_EditorClassIdentifier: 
+  callerName:
+  - Ryan
+  knowCallerName: -1
+  address:
+  - the 105 national highway
+  knowAddress: -1
+  info:
+  - Car Accident
+  knowInfo: -1
+  time: 90
+  startDialog: {fileID: 11400000, guid: 30dfe3f4d93d55140816c9b557cfecbb, type: 2}
+  wrongResponse: ".\u3002\u3002\u3002"
+  carPositions:
+  - {x: 103.3896, y: 247.3135}
+  - {x: 0.1151555, y: -149.5748}
+  - {x: 314.2652, y: -129.4642}
+  - {x: 715.926, y: -125.5763}
+  - {x: 875.5362, y: -144.9301}
+  - {x: 875.2029, y: -226.0819}
+  - {x: 771.8701, y: -226.0901}
+  police: 1
+  ambulance: 1
+  fire: 1
+  fake: 0
+  wrongNameTime: 10
+  wrongInfoTime: 10
+  wrongAddressTime: 10
+  wrongTrafficTime: 15
+  image: {fileID: 0}
+  score: 100

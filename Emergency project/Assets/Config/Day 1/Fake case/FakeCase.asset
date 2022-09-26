@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aa75d6e19f305041a019c3694190018, type: 3}
+  m_Name: FakeCase
+  m_EditorClassIdentifier: 
+  callerName:
+  - 
+  knowCallerName: 0
+  address:
+  - 
+  knowAddress: 0
+  info:
+  - 
+  knowInfo: 0
+  time: 90
+  startDialog: {fileID: 11400000, guid: 62c3d961f28342c43832d257657d9166, type: 2}
+  wrongResponse: Sorry, i can't get you.
+  carPositions: []
+  police: 0
+  ambulance: 0
+  fire: 0
+  fake: 1
+  wrongNameTime: 0
+  wrongInfoTime: 0
+  wrongAddressTime: 0
+  wrongTrafficTime: 0
+  image: {fileID: 0}
+  score: 71.111115

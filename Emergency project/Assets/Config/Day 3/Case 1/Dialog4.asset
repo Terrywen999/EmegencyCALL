@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a98f8515ec1f446bb22fbfd94c8331, type: 3}
+  m_Name: Dialog4
+  m_EditorClassIdentifier: 
+  dialogEntries:
+  - text: I am embarrassed to say that I am now in the middle of two steel, I am
+      a welder, I want to weld two steel, I forgot my position and stuck <link =
+      info><color = white>my head in the middle of two steel</color></link>, because
+      of the weekend, so there is no one in the factory
+  dialogOptions:
+  - responseType: 2
+    config: {fileID: 11400000, guid: 156ae921e73d4bf44804fbdc8f118725, type: 2}
+    text: Okay Mr. Jimmy, may I ask what is a situation that you are stuck with?

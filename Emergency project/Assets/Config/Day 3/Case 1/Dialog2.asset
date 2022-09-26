@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a98f8515ec1f446bb22fbfd94c8331, type: 3}
+  m_Name: Dialog2
+  m_EditorClassIdentifier: 
+  dialogEntries:
+  - text: I'm... I'm stuck. I'm stuck, I need your help, I can only move my hands
+      now
+  dialogOptions:
+  - responseType: 3
+    config: {fileID: 11400000, guid: b504656605dc76444bbdb663e8b014c1, type: 2}
+    text: Sir, I need you to calm down so I can help you better, just follow me and
+      take a deep breath, okay?

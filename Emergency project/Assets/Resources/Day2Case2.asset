@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aa75d6e19f305041a019c3694190018, type: 3}
+  m_Name: Day2Case2
+  m_EditorClassIdentifier: 
+  callerName:
+  - 'Jennifer '
+  knowCallerName: -1
+  address:
+  - 251 NS 15th Ave unit 101
+  knowAddress: -1
+  info:
+  - Killed his husband
+  knowInfo: -1
+  time: 90
+  startDialog: {fileID: 11400000, guid: 3dbb84777a9b3904db78af432a6c82c0, type: 2}
+  wrongResponse: ummmmmm.
+  carPositions:
+  - {x: 3.675081, y: -636.0269}
+  - {x: 7.721597, y: -275.1212}
+  - {x: 2.98412, y: -150.9272}
+  - {x: 55.33419, y: -17.39938}
+  - {x: 89.95245, y: 68.24705}
+  - {x: 110.0098, y: 131.9453}
+  - {x: 106.2232, y: 176.45}
+  police: 1
+  ambulance: 1
+  fire: 0
+  fake: 0
+  wrongNameTime: 10
+  wrongInfoTime: 10
+  wrongAddressTime: 10
+  wrongTrafficTime: 15
+  image: {fileID: 0}
+  score: 100

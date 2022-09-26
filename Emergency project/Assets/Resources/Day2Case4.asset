@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aa75d6e19f305041a019c3694190018, type: 3}
+  m_Name: Day2Case4
+  m_EditorClassIdentifier: 
+  callerName:
+  - Anita
+  knowCallerName: -1
+  address:
+  - 255 NW 205 st
+  knowAddress: -1
+  info:
+  - feel sick and cant breath
+  knowInfo: -1
+  time: 90
+  startDialog: {fileID: 11400000, guid: d5da6b7b1adf2474d8ccebac7eaf13bb, type: 2}
+  wrongResponse: .................
+  carPositions:
+  - {x: 1002.406, y: -607.412}
+  - {x: 1040.088, y: -503.4515}
+  - {x: 1147.011, y: -538.2795}
+  - {x: 1214.271, y: -345.9269}
+  - {x: 1010.399, y: -275.6315}
+  - {x: 1026.071, y: -244.1429}
+  - {x: 954.5917, y: -210.6804}
+  police: 0
+  ambulance: 1
+  fire: 0
+  fake: 0
+  wrongNameTime: 10
+  wrongInfoTime: 10
+  wrongAddressTime: 10
+  wrongTrafficTime: 15
+  image: {fileID: 0}
+  score: 100

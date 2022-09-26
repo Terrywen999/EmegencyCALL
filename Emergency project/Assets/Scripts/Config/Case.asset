@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aa75d6e19f305041a019c3694190018, type: 3}
+  m_Name: Case
+  m_EditorClassIdentifier: 
+  callerName: Micheal
+  address: "701SW7thSt\uFF0Cunit133"
+  info: "\u6211\u7684\u670B\u53CB\u4ECE\u697C\u4F53\u4E0A\u9762\u6454\u4E86\u4E0B\u6765\uFF0C\u73B0\u5728\u624B\u81C2\u4E0D\u80FD\u975E\u5E38\u75DB\uFF0C\u6211\u6000\u7591\u662F\u9AA8\u6298\u4E86"
+  time: 120
+  startDialog: {fileID: 11400000, guid: 25a9a81557fc0024eb4641ebb7af3d32, type: 2}
+  wrongResponse: "\u6211\u4E0D\u662F\u5F88\u80FD\u7406\u89E3"
