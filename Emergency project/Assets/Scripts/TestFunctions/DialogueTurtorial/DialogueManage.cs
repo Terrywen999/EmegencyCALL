@@ -148,15 +148,16 @@ public class DialogueManage : MonoBehaviour
         if (sentences.Count == 11)
         {
 
-            Arrow3.SetActive(true);
-            arrowMove3.Play("ArrowMovement3");
+           
             form.SetActive(true);
         }
 
         if (sentences.Count == 10)
         {
 
-            Arrow3.SetActive(false);
+            Arrow3.SetActive(true);
+            arrowMove3.Play("ArrowMovement3");
+            
         }
 
         if (sentences.Count == 9)
@@ -187,7 +188,14 @@ public class DialogueManage : MonoBehaviour
             }
         }
 
-        if(sentences.Count == 3 &&GameManager.Instance.currentCaseIndex==2)
+        if (sentences.Count == 2 && GameManager.Instance.currentCaseIndex ==0 )
+        {
+            
+                EndDialogue();
+            
+        }
+
+        if (sentences.Count == 3 &&GameManager.Instance.currentCaseIndex==2)
         {
             
                RestartDialogue();
@@ -241,6 +249,10 @@ public class DialogueManage : MonoBehaviour
 
     public void StopAllAnimation()
     {
+        if (Arrow.activeInHierarchy == true)
+        {
+            Arrow.SetActive(false);
+        }
         if (Arrow2.activeInHierarchy == true)
         {
             Arrow2.SetActive(false);

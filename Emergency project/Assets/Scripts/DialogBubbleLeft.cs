@@ -12,6 +12,8 @@ public class DialogBubbleLeft : MonoBehaviour, IPointerClickHandler
     public RectTransform img;
     public float offset = 40f;
 
+    public DialogueManage dialogueManage;
+
     ResponseType type;
     bool setImage = false;
 
@@ -100,6 +102,10 @@ public class DialogBubbleLeft : MonoBehaviour, IPointerClickHandler
                         break;
                     case "info":
                         MainCanvas.Instance.GetCurrentCase().knowInfo = 0;
+                        if(GameManager.Instance.cases.Count == 0)
+                        {
+                            dialogueManage.DisPlayNextSentence("");
+                        }
                         break;
                     
 
